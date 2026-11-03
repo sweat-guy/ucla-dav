@@ -32,3 +32,12 @@ module truth_table(
 endmodule
 
 
+module comparator4bit(
+	input logic a3, a2, a1, a0,  // Inputs a and b are split up for some reason
+	input logic b3, b2, b1, b0,  // Let's combine them using concatenation!
+	output logic eq, gt, lt
+);
+
+	// FILL THIS IN
+
+endmodule
