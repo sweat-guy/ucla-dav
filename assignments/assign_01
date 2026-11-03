@@ -38,6 +38,44 @@ module comparator4bit(
 	output logic eq, gt, lt
 );
 
-	// FILL THIS IN
+    logic [3:0] a, b;
+	assign a = {a3, a2, a1, a0};
+    assign b  = {b3, b2, b1, b0};
+    assign eq = (a == b);
+    assign gt = (a > b);
+    assign lt = (a < b);
+
+endmodule
+
+module sign_extension(
+	input logic [6:0] a,
+	output logic [15:0] y
+);
+
+	assign y = {{9{a[6]}}, a};
+
+endmodule
+
+module mux2(
+	input logic [1:0] d0, d1,
+	input logic s,
+	output logic [1:0] y
+);
+
+    assign y = s ? d1 : d0;
+
+endmodule
+
+module mux4(
+	input logic [3:0] d0, d1, d2, d3,
+	input logic [1:0] s,
+	output logic [3:0] y
+);
+
+	// FILL THIS IN: what internal signals might you need to connect the MUXes?
+
+	mux2 lowmux(/* FILL THIS IN */);
+	mux2 highmux(/* FILL THIS IN */);
+	mux2 finalmux(/* FILL THIS IN */);
 
 endmodule
