@@ -1,0 +1,34 @@
+module logic_gates(
+    input logic a, b,
+    output logic f_not, f_and, f_or, f_xor, f_nand, f_nor
+);
+    assign f_not = ~a;
+    assign f_and = a & b;
+    assign f_or = a | b;
+    assign f_xor = a ^ b;
+    assign f_nand = ~(a & b);
+    assign f_nor = ~(a | b);
+endmodule
+
+
+module parity(
+	input logic [63:0] a,
+	output logic parity_result
+);
+
+    assign parity_result = ~^a;
+
+endmodule
+
+
+module truth_table(
+    input logic a, b, c,
+    output logic f
+);
+
+    assign f = ~b | (a & ~c);
+    // F = B' + AC'
+
+endmodule
+
+
