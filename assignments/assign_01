@@ -57,9 +57,9 @@ module sign_extension(
 endmodule
 
 module mux2(
-	input logic [1:0] d0, d1,
+	input logic [3:0] d0, d1,
 	input logic s,
-	output logic [1:0] y
+	output logic [3:0] y
 );
 
     assign y = s ? d1 : d0;
@@ -72,10 +72,49 @@ module mux4(
 	output logic [3:0] y
 );
 
-	// FILL THIS IN: what internal signals might you need to connect the MUXes?
+	logic [3:0] low, high;
 
-	mux2 lowmux(/* FILL THIS IN */);
-	mux2 highmux(/* FILL THIS IN */);
-	mux2 finalmux(/* FILL THIS IN */);
+	mux2 lowmux(d0, d1, s[0], low);
+	mux2 highmux(d2, d3, s[0], high);
+	mux2 finalmux(low, high, s[1], y);
+
+endmodule
+
+module priority_casez(
+    input logic [3:0] a,
+    output logic [3:0] y
+);
+
+    always_comb begin
+        casez (a)
+            4'b1???: y = 4'b1000;
+            4'b01??: y = 4'b0100;
+            4'b001?: y = 4'b0010;
+            4'b0001: y = 4'b0001;
+            default: y = 4'b0000;
+        endcase
+    end
+
+endmodule
+
+module csel_block4 (
+    input logic [3:0] a, b,
+    output logic [3:0] s0, s1,   // Sums assuming carry-in = 0 / 1
+    output logic c0, c1          // Carry-outs assuming carry-in = 0 / 1
+);
+
+    // FILL THIS IN
+
+endmodule
+
+
+module csel_adder8 (
+    input logic [7:0] a, b,
+    input logic cin,
+    output logic [7:0] s,
+    output logic cout
+);
+
+    // FILL THIS IN
 
 endmodule
