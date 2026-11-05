@@ -1,7 +1,8 @@
 # compile verilog/system verilog design source files
 sv xil_defaultlib  --include "../../../../../../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef" \
-"../../../../miniALU.srcs/sources_1/new/miniALU.sv" \
-"../../../../../miniALU_tb.sv" \
+"../../../../miniALU.srcs/sources_1/new/displayEncoder.sv" \
+"../../../../miniALU.srcs/sources_1/new/sevenSegDigit.sv" \
+"../../../../../display_tb.sv" \
 
 # compile glbl module
 verilog xil_defaultlib "glbl.v"

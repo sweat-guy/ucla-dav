@@ -49,3 +49,10 @@ add_bp {C:/Users/airde/Desktop/Main/ucla/ieee/dav/labs/DAV LAB 1/miniALU/miniALU
 remove_bps -file {C:/Users/airde/Desktop/Main/ucla/ieee/dav/labs/DAV LAB 1/miniALU/miniALU.srcs/sources_1/new/miniALU.sv} -line 29
 synth_design -top miniALU -part xc7a35tcpg236-1 -lint 
 synth_design -rtl -rtl_skip_mlo -name rtl_1
+close_design
+close_sim
+close [ open {C:/Users/airde/Desktop/Main/ucla/ieee/dav/labs/DAV LAB 1/miniALU/miniALU.srcs/sources_1/new/displayEncoder.sv} w ]
+add_files {{C:/Users/airde/Desktop/Main/ucla/ieee/dav/labs/DAV LAB 1/miniALU/miniALU.srcs/sources_1/new/displayEncoder.sv}}
+close [ open {C:/Users/airde/Desktop/Main/ucla/ieee/dav/labs/DAV LAB 1/miniALU/miniALU.srcs/sources_1/new/sevenSegDigit.sv} w ]
+add_files {{C:/Users/airde/Desktop/Main/ucla/ieee/dav/labs/DAV LAB 1/miniALU/miniALU.srcs/sources_1/new/sevenSegDigit.sv}}
+update_compile_order -fileset sources_1

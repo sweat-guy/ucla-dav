@@ -1,6 +1,4 @@
 Time resolution is 1 ps
-Time=0 op1= 7 op2= 5 operation=0 sign=0 result=     12
-Time=20000 op1= 7 op2= 5 operation=0 sign=1 result=      2
-Time=40000 op1= 7 op2= 5 operation=1 sign=0 result=    224
-Time=60000 op1= 7 op2= 5 operation=1 sign=1 result=      0
-$finish called at time : 80 ns : File "C:/Users/airde/Desktop/Main/ucla/ieee/dav/labs/DAV LAB 1/miniALU_tb.sv" Line 49
+Time=0 result=   2345 displayBits = '{18,25,48,36}
+Time=20000 result=   6789 displayBits = '{16,0,120,2}
+$finish called at time : 40 ns : File "C:/Users/airde/Desktop/Main/ucla/ieee/dav/labs/DAV LAB 1/display_tb.sv" Line 41
