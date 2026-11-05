@@ -1448,3 +1448,394 @@ selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // h (PAResource
 // HMemoryUtils.trashcanNow. Engine heap size: 1,937 MB. GUI used memory: 124 MB. Current time: 11/5/26, 3:28:02 PM PST
 // HMemoryUtils.trashcanNow. Engine heap size: 1,937 MB. GUI used memory: 124 MB. Current time: 11/5/26, 3:28:43 PM PST
 // HMemoryUtils.trashcanNow. Engine heap size: 1,937 MB. GUI used memory: 124 MB. Current time: 11/5/26, 3:29:23 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,937 MB. GUI used memory: 124 MB. Current time: 11/5/26, 3:30:03 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,937 MB. GUI used memory: 124 MB. Current time: 11/5/26, 3:30:44 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,937 MB. GUI used memory: 124 MB. Current time: 11/5/26, 3:31:24 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,937 MB. GUI used memory: 124 MB. Current time: 11/5/26, 3:32:04 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,937 MB. GUI used memory: 124 MB. Current time: 11/5/26, 3:32:45 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,937 MB. GUI used memory: 124 MB. Current time: 11/5/26, 3:33:25 PM PST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 20h:41m:55s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 20h:41m:57s
+// HMemoryUtils.trashcanNow. Engine heap size: 1,937 MB. GUI used memory: 124 MB. Current time: 11/5/26, 3:34:06 PM PST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 20h:42m:39s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 20h:42m:41s
+// HMemoryUtils.trashcanNow. Engine heap size: 1,937 MB. GUI used memory: 124 MB. Current time: 11/5/26, 3:34:46 PM PST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 20h:43m:21s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 20h:43m:23s
+// HMemoryUtils.trashcanNow. Engine heap size: 1,937 MB. GUI used memory: 124 MB. Current time: 11/5/26, 3:35:27 PM PST
+// Elapsed time: 19347 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sevenSegDigit.sv", 3); // m (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // h (PAResourceAtoD.AbstractFileView_RELOAD)
+selectCodeEditor("sevenSegDigit.sv", 905, 479); // ae (sevenSegDigit.sv)
+selectCodeEditor("sevenSegDigit.sv", 905, 479, false, false, false, false, true); // ae (sevenSegDigit.sv) - Double Click
+selectCodeEditor("sevenSegDigit.sv", 905, 479); // ae (sevenSegDigit.sv)
+selectCodeEditor("sevenSegDigit.sv", 922, 477); // ae (sevenSegDigit.sv)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,937 MB. GUI used memory: 124 MB. Current time: 11/5/26, 3:36:07 PM PST
+// Elapsed time: 37 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, sevenSegDigit (sevenSegDigit.sv)]", 9, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // C (PAResourceCommand.PACommandNames_ADD_SOURCES, Sources_add_sources)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+selectRadioButton(PAResourceAtoD.AddSrcWizard_SPECIFY_SIMULATION_SPECIFIC_HDL_FILES, "Add or create simulation sources"); // a (PAResourceAtoD.AddSrcWizard_SPECIFY_SIMULATION_SPECIFIC_HDL_FILES)
+selectButton("NEXT", "Next", "Add Sources"); // JButton (NEXT)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files", "Add Sources"); // a (PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT)
+setFileChooser("C:/Users/airde/Desktop/Main/ucla/ieee/dav/labs/DAV LAB 1/display_tb.sv");
+selectButton("FINISH", "Finish", "Add Sources"); // JButton (FINISH)
+// 'f' command handler elapsed time: 20 seconds
+dismissDialog("Add Sources"); // d (dialog23)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: set_property SOURCE_SET sources_1 [get_filesets sim_1] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -fileset sim_1 -norecurse {{C:/Users/airde/Desktop/Main/ucla/ieee/dav/labs/DAV LAB 1/display_tb.sv}} 
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 20h:44m:43s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 20h:44m:45s
+// Tcl Message: update_compile_order -fileset sim_1 
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 20h:44m:47s
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,937 MB. GUI used memory: 125 MB. Current time: 11/5/26, 3:36:47 PM PST
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 20h:44m:49s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, display_tb (display_tb.sv)]", 8, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+// Elapsed time: 25 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, display_tb (display_tb.sv)]", 8, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, display_tb (display_tb.sv), DUT4 : sevenSegDigit (sevenSegDigit.sv)]", 12, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ap (PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, simulation_run_behavioral_menu)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: LAUNCH_SIM
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: "xvlog --incr --relax -L uvm -prj miniALU_tb_vlog.prj" 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/airde/Desktop/Main/ucla/ieee/dav/labs/DAV LAB 1/miniALU/miniALU.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/airde/Desktop/Main/ucla/ieee/dav/labs/DAV LAB 1/miniALU/miniALU.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "miniALU_tb_behav -key {Behavioral:sim_1:Functional:miniALU_tb} -tclbatch {miniALU_tb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // x (PAResourceOtoP.PAViews_PROJECT_SUMMARY, PlanAheadTabProject Summary)
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,937 MB. GUI used memory: 132 MB. Current time: 11/5/26, 3:37:22 PM PST
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: source miniALU_tb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 1000ns 
+// Tcl Message: Time=0 op1= 7 op2= 5 operation=0 sign=0 result=     12 Time=20000 op1= 7 op2= 5 operation=0 sign=1 result=      2 Time=40000 op1= 7 op2= 5 operation=1 sign=0 result=    224 Time=60000 op1= 7 op2= 5 operation=1 sign=1 result=      0 $finish called at time : 80 ns : File "C:/Users/airde/Desktop/Main/ucla/ieee/dav/labs/DAV LAB 1/miniALU_tb.sv" Line 49 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'miniALU_tb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 2977.773 ; gain = 0.000 
+// 'd' command handler elapsed time: 5 seconds
+dismissDialog("Run Simulation"); // e (Run Simulation Progress)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,937 MB. GUI used memory: 131 MB. Current time: 11/5/26, 3:37:29 PM PST
+// Elapsed time: 25 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (PAResourceTtoZ.TaskBanner_CLOSE)
+closeTask("Simulation", "Behavioral Simulation - Functional - sim_1 - miniALU_tb", "DesignTask.SIMULATION");
+selectButton(RDIResource.BaseDialog_OK, "OK", "Confirm Close"); // f (RDIResource.BaseDialog_OK)
+dismissDialog("Confirm Close"); // x (dialog25)
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+dismissDialog("Close"); // bk (Close Progress)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, display_tb (display_tb.sv)]", 8, true, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // am (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // am (PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy)
+selectMenuItem(PAResourceCommand.PACommandNames_SET_AS_TOP, "Set as Top"); // ap (PAResourceCommand.PACommandNames_SET_AS_TOP, set_as_top_menu)
+// Run Command: PAResourceCommand.PACommandNames_SET_AS_TOP
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: set_property top display_tb [get_filesets sim_1] 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: set_property top_lib xil_defaultlib [get_filesets sim_1] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 20h:45m:57s
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: The operation completed successfully.  
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, display_tb (display_tb.sv)]", 8); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 20h:45m:59s
+// Tcl Message: update_compile_order -fileset sim_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, miniALU_tb (miniALU_tb.sv)]", 8, true, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_OPEN_FILE_WITH, "Open With"); // am (PAResourceCommand.PACommandNames_OPEN_FILE_WITH, Open With)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // am (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // am (PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy)
+selectMenuItem(PAResourceCommand.PACommandNames_SET_AS_TOP, "Set as Top"); // ap (PAResourceCommand.PACommandNames_SET_AS_TOP, set_as_top_menu)
+// Run Command: PAResourceCommand.PACommandNames_SET_AS_TOP
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: set_property top miniALU_tb [get_filesets sim_1] 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: set_property top_lib xil_defaultlib [get_filesets sim_1] 
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 20h:46m:01s
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, display_tb (display_tb.sv)]", 7, true, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, miniALU_tb (miniALU_tb.sv)]", 8, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, miniALU_tb (miniALU_tb.sv)]", 8, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 20h:46m:05s
+// Tcl Message: update_compile_order -fileset sim_1 
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 20h:46m:07s
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: The operation completed successfully.  
+// TclEventType: DG_GRAPH_GENERATED
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, miniALU_tb (miniALU_tb.sv)]", 7); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 20h:46m:09s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sevenSegDigit (sevenSegDigit.sv)]", 3, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,937 MB. GUI used memory: 133 MB. Current time: 11/5/26, 3:38:10 PM PST
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sevenSegDigit (sevenSegDigit.sv)]", 3, false, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_OPEN_FILE_WITH, "Open With"); // am (PAResourceCommand.PACommandNames_OPEN_FILE_WITH, Open With)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // am (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // am (PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy)
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, display_tb (display_tb.sv)]", 8, true, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_OPEN_FILE_WITH, "Open With"); // am (PAResourceCommand.PACommandNames_OPEN_FILE_WITH, Open With)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // am (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // am (PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy)
+selectMenuItem(PAResourceCommand.PACommandNames_SET_AS_TOP, "Set as Top"); // ap (PAResourceCommand.PACommandNames_SET_AS_TOP, set_as_top_menu)
+// Run Command: PAResourceCommand.PACommandNames_SET_AS_TOP
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: set_property top display_tb [get_filesets sim_1] 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: set_property top_lib xil_defaultlib [get_filesets sim_1] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 20h:46m:27s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 20h:46m:29s
+// Tcl Message: update_compile_order -fileset sim_1 
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 20h:46m:31s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 20h:46m:33s
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, display_tb (display_tb.sv)]", 7); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, display_tb (display_tb.sv)]", 7); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // H (PAResourceOtoP.PAViews_CODE, PlanAheadTabCode)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // m (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "display_tb.sv", 4); // m (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, display_tb (display_tb.sv)]", 7, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ap (PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, simulation_run_behavioral_menu)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: LAUNCH_SIM
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/airde/Desktop/Main/ucla/ieee/dav/labs/DAV LAB 1/miniALU/miniALU.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: Built simulation snapshot display_tb_behav 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/airde/Desktop/Main/ucla/ieee/dav/labs/DAV LAB 1/miniALU/miniALU.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "display_tb_behav -key {Behavioral:sim_1:Functional:display_tb} -tclbatch {display_tb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,937 MB. GUI used memory: 140 MB. Current time: 11/5/26, 3:38:52 PM PST
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// Tcl Message: Time resolution is 1 ps 
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // x (PAResourceOtoP.PAViews_PROJECT_SUMMARY, PlanAheadTabProject Summary)
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,937 MB. GUI used memory: 139 MB. Current time: 11/5/26, 3:38:52 PM PST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: source display_tb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 1000ns 
+// Tcl Message: Time=0 result=   2345 displayBits = '{18,25,48,36} Time=20000 result=   6789 displayBits = '{16,0,120,2} $finish called at time : 40 ns : File "C:/Users/airde/Desktop/Main/ucla/ieee/dav/labs/DAV LAB 1/display_tb.sv" Line 41 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'display_tb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 2977.773 ; gain = 0.000 
+// 'd' command handler elapsed time: 5 seconds
+dismissDialog("Run Simulation"); // e (Run Simulation Progress)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Elapsed time: 22 seconds
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 827, 77); // cE (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 796, 115); // cE (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 805, 102); // cE (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 816, 89); // cE (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 814, 89); // cE (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,937 MB. GUI used memory: 138 MB. Current time: 11/5/26, 3:39:32 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,937 MB. GUI used memory: 138 MB. Current time: 11/5/26, 3:40:12 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,937 MB. GUI used memory: 138 MB. Current time: 11/5/26, 3:40:52 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,937 MB. GUI used memory: 138 MB. Current time: 11/5/26, 3:41:33 PM PST
+// Elapsed time: 130 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (PAResourceTtoZ.TaskBanner_CLOSE)
+closeTask("Simulation", "Behavioral Simulation - Functional - sim_1 - display_tb", "DesignTask.SIMULATION");
+selectButton(RDIResource.BaseDialog_OK, "OK", "Confirm Close"); // f (RDIResource.BaseDialog_OK)
+// TclEventType: WAVEFORM_CLOSE_WCFG
+dismissDialog("Confirm Close"); // x (dialog26)
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+dismissDialog("Close"); // bk (Close Progress)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sevenSegDigit.sv", 3); // m (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "display_tb.sv", 4); // m (PlanAheadTabBaseWorkspace_JideTabbedPane)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // H (PAResourceOtoP.PAViews_CODE, PlanAheadTabCode)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sevenSegDigit (sevenSegDigit.sv)]", 3, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,937 MB. GUI used memory: 139 MB. Current time: 11/5/26, 3:42:13 PM PST
+// Elapsed time: 56 seconds
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // C (PAResourceCommand.PACommandNames_ADD_SOURCES, Sources_add_sources)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+selectRadioButton(PAResourceAtoD.AddSrcWizard_SPECIFY_HDL_NETLIST_BLOCK_DESIGN, "Add or create design sources"); // a (PAResourceAtoD.AddSrcWizard_SPECIFY_HDL_NETLIST_BLOCK_DESIGN)
+selectButton("NEXT", "Next", "Add Sources"); // JButton (NEXT)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File", "Add Sources"); // a (PAResourceQtoS.SrcChooserPanel_CREATE_FILE)
+dismissDialog("Create Source File"); // l (dialog28)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files", "Add Sources"); // a (PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT)
+setFileChooser("C:/Users/airde/Desktop/Main/ucla/ieee/dav/labs/DAV LAB 1/seg_driver.sv");
+// HMemoryUtils.trashcanNow. Engine heap size: 1,937 MB. GUI used memory: 140 MB. Current time: 11/5/26, 3:42:53 PM PST
+selectButton("FINISH", "Finish", "Add Sources"); // JButton (FINISH)
+// 'f' command handler elapsed time: 12 seconds
+dismissDialog("Add Sources"); // d (dialog27)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -norecurse {{C:/Users/airde/Desktop/Main/ucla/ieee/dav/labs/DAV LAB 1/seg_driver.sv}} 
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 20h:50m:56s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 20h:50m:58s
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 20h:51m:00s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 20h:51m:02s
+// HMemoryUtils.trashcanNow. Engine heap size: 1,937 MB. GUI used memory: 140 MB. Current time: 11/5/26, 3:43:34 PM PST
