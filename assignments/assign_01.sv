@@ -31,7 +31,7 @@ endmodule
 //          BC: 00 01 11 10
 //   A=0        1  1  0  0      left 2x2 block (B = 0)  -> B'
 //   A=1        1  1  0  1      110 wraps to 100        -> AC'
-module truth_table(
+module k_map_problem(
     input logic a, b, c,
     output logic f
 );
@@ -48,6 +48,7 @@ module comparator4bit(
     logic [3:0] a, b;               // internal buses (must be declared before use)
     assign a  = {a3, a2, a1, a0};   // concatenation: list MSB first
     assign b  = {b3, b2, b1, b0};
+    
     assign eq = (a == b);           // 1 if equal (unsigned compare, 0 to 15)
     assign gt = (a > b);            // 1 if a > b
     assign lt = (a < b);            // 1 if a < b
