@@ -103,3 +103,41 @@ update_compile_order -fileset sources_1
 update_compile_order -fileset sources_1
 launch_runs synth_1 -jobs 12
 wait_on_run synth_1
+open_run synth_1 -name synth_1
+update_compile_order -fileset sources_1
+close_design
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+place_ports {op1[3]} R2
+place_ports {op1[2]} T1
+place_ports {op1[1]} U1
+place_ports {op1[0]} W2
+place_ports clk W5
+place_ports operation R3
+place_ports sign T2
+place_ports {op2[3]} T3
+place_ports {op2[2]} V2
+place_ports {op2[1]} W13
+place_ports {op2[0]} W14
+set_property package_pin "" [get_ports [list  {segBits[6]}]]
+place_ports {segBits[0]} W7
+place_ports {segBits[1]} W6
+place_ports {segBits[2]} U8
+place_ports {segBits[3]} V8
+place_ports {segBits[4]} U5
+place_ports {segBits[5]} V5
+place_ports {segBits[6]} U7
+place_ports {trigger[3]} W4
+place_ports {trigger[2]} V4
+place_ports {trigger[1]} U4
+place_ports {trigger[0]} U2
+file mkdir {C:/Users/airde/Desktop/Main/ucla/ieee/dav/labs/DAV LAB 1/miniALU/miniALU.srcs/constrs_1/new}
+close [ open {C:/Users/airde/Desktop/Main/ucla/ieee/dav/labs/DAV LAB 1/miniALU/miniALU.srcs/constrs_1/new/lab1_constraints.xdc} w ]
+add_files -fileset constrs_1 {{C:/Users/airde/Desktop/Main/ucla/ieee/dav/labs/DAV LAB 1/miniALU/miniALU.srcs/constrs_1/new/lab1_constraints.xdc}}
+set_property target_constrs_file {C:/Users/airde/Desktop/Main/ucla/ieee/dav/labs/DAV LAB 1/miniALU/miniALU.srcs/constrs_1/new/lab1_constraints.xdc} [current_fileset -constrset]
+save_constraints -force
+set_property needs_refresh false [get_runs synth_1]
+set_property needs_refresh false [get_runs impl_1]
+close_design
