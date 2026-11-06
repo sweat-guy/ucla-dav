@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Thu Nov  5 16:17:10 2026
+# Process ID         : 35896
+# Current directory  : C:/Users/airde/Desktop/Main/ucla/ieee/dav/labs/DAV LAB 1/miniALU/miniALU.runs/synth_1
+# Command line       : vivado.exe -log calculator_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source calculator_top.tcl
+# Log file           : C:/Users/airde/Desktop/Main/ucla/ieee/dav/labs/DAV LAB 1/miniALU/miniALU.runs/synth_1/calculator_top.vds
+# Journal file       : C:/Users/airde/Desktop/Main/ucla/ieee/dav/labs/DAV LAB 1/miniALU/miniALU.runs/synth_1\vivado.jou
+# Running On         : EYG14Ti
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26300
+# Processor Detail   : AMD Ryzen AI 9 HX 370 w/ Radeon 890M           
+# CPU Frequency      : 1996 MHz
+# CPU Physical cores : 12
+# CPU Logical cores  : 24
+# Host memory        : 33412 MB
+# Swap memory        : 9520 MB
+# Total Virtual      : 42933 MB
+# Available Virtual  : 5810 MB
+#-----------------------------------------------------------
+source calculator_top.tcl -notrace
