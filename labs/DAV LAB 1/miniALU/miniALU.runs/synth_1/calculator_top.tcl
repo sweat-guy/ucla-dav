@@ -56,10 +56,7 @@ if {$::dispatch::connected} {
 }
 
 OPTRACE "synth_1" START { ROLLUP_AUTO }
-set_param checkpoint.writeSynthRtdsInDcp 1
 set_param general.usePosixSpawnForFork 1
-set_msg_config -id {Synth 8-256} -limit 10000
-set_msg_config -id {Synth 8-638} -limit 10000
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7a35tcpg236-1
 
@@ -91,6 +88,9 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
+read_xdc {{C:/Users/airde/Desktop/Main/ucla/ieee/dav/labs/DAV LAB 1/miniALU/miniALU.srcs/constrs_1/new/lab1_constraints.xdc}}
+set_property used_in_implementation false [get_files {{C:/Users/airde/Desktop/Main/ucla/ieee/dav/labs/DAV LAB 1/miniALU/miniALU.srcs/constrs_1/new/lab1_constraints.xdc}}]
+
 set_param ips.enableIPCacheLiteLoad 1
 
 read_checkpoint -auto_incremental -incremental {C:/Users/airde/Desktop/Main/ucla/ieee/dav/labs/DAV LAB 1/miniALU/miniALU.srcs/utils_1/imports/synth_1/calculator_top.dcp}
